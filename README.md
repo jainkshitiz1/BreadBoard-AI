@@ -4,7 +4,7 @@
 
 FLUXBOARD.AI is a billion-dollar deep-tech AR-driven digital twin and circuit simulator, designed as a premium, hyper-realistic workspace for electronics engineers and hobbyists. Built for the **PIXEL.GEMINI Hackathon**.
 
-![FluxBoard Banner](https://raw.githubusercontent.com/StarDust-Git-Code/FLUXBOARD.AI/main/public/banner.png) *(Placeholder: Update with actual screenshot)*
+![FluxBoard Banner](banner.png) 
 
 ## 🚀 Vision
 To bridge the gap between physical breadboards and digital simulation using real-time AI assistance, AR-inspired visualizations, and a robust physics-first engine.
