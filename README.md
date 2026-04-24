@@ -1,10 +1,10 @@
-# ⚡ FLUXBOARD.AI
+# ⚡ BreadBOARD.AI
 
 **The "Iron Man HUD" for Electronics Engineering.**
 
-FLUXBOARD.AI is a billion-dollar deep-tech AR-driven digital twin and circuit simulator, designed as a premium, hyper-realistic workspace for electronics engineers and hobbyists. Built for the **PIXEL.GEMINI Hackathon**.
+BreadBOARD.AI is a billion-dollar deep-tech AR-driven digital twin and circuit simulator, designed as a premium, hyper-realistic workspace for electronics engineers and hobbyists. Built for the **PIXEL.GEMINI Hackathon**.
 
-![FluxBoard Banner](banner.png) 
+![BreadBoard Banner](banner.png) 
 
 ## 🚀 Vision
 To bridge the gap between physical breadboards and digital simulation using real-time AI assistance, AR-inspired visualizations, and a robust physics-first engine.
@@ -54,7 +54,7 @@ To bridge the gap between physical breadboards and digital simulation using real
 
 ```bash
 # Clone the repository
-git clone git@github.com:StarDust-Git-Code/FLUXBOARD.AI.git
+git clone https://github.com/jainkshitiz1/BreadBoard-AI.git
 
 # Install dependencies
 npm install
@@ -64,5 +64,3 @@ npm run dev
 ```
 
 ---
-
-*Built with ❤️ for the PIXEL.GEMINI Hackathon.*

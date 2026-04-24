@@ -67,7 +67,7 @@ export function Navbar() {
             <Zap className="w-3 h-3 text-cyan-400 absolute -top-0.5 -right-0.5 animate-pulse" />
           </div>
           <h1 className="text-lg font-bold tracking-tighter text-white">
-            FLUX<span className="text-lime-400">BOARD</span><span className="text-cyan-400">.AI</span>
+            Bread<span className="text-lime-400">BOARD</span><span className="text-cyan-400">.AI</span>
           </h1>
         </div>
 
