@@ -7,11 +7,6 @@ import { COMPONENT_LIBRARY } from './ComponentLibrary';
 // Keys are tried in order; if one fails (quota/auth) the next one is used.
 const API_KEYS: string[] = [
     import.meta.env.VITE_GEMINI_API_KEY || '',
-    'HIDDEN_KEY_1',
-    'HIDDEN_KEY_2',
-    'HIDDEN_KEY_3',
-    'HIDDEN_KEY_4',
-    'HIDDEN_KEY_5',
 ].filter(Boolean);
 
 let _keyIndex = 0;
@@ -21,7 +16,7 @@ function nextKey(): string {
     return key;
 }
 
-const MODEL_NAME = 'gemini-2.5-flash';
+const MODEL_NAME = 'gemini-3-flash-preview';
 
 export interface GenerativeCircuitResponse {
     components: Omit<ComponentInstance, 'pins'> & { anchorHole: string }[];

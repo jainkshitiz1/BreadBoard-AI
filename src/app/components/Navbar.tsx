@@ -305,7 +305,7 @@ function SettingsContent() {
 
       <SectionLabel>🧪 Simulation</SectionLabel>
       <SettingRow label="SPICE Engine" value={<span className="text-xs font-mono text-lime-400">ngspice.wasm ✓</span>} />
-      <SettingRow label="AI Model" value={<span className="text-xs font-mono text-cyan-400">gemini-2.5-flash</span>} />
+      <SettingRow label="AI Model" value={<span className="text-xs font-mono text-cyan-400">gemini-3-flash-preview</span>} />
 
       <div className="mt-4 pt-4 border-t border-slate-800">
         <button

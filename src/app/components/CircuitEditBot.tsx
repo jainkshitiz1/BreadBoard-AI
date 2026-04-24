@@ -10,14 +10,10 @@ interface Message {
 }
 
 const API_KEYS = [
-    import.meta.env.VITE_GEMINI_API_KEY || 'HIDDEN_KEY_1',
-    'HIDDEN_KEY_2',
-    'HIDDEN_KEY_3',
-    'HIDDEN_KEY_4',
-    'HIDDEN_KEY_5',
-];
+    import.meta.env.VITE_GEMINI_API_KEY || '',
+].filter(Boolean);
 let _ki = 0;
-const nextKey = () => API_KEYS[(_ki = (_ki + 1) % API_KEYS.length)];
+const nextKey = () => API_KEYS.length > 0 ? API_KEYS[(_ki = (_ki + 1) % API_KEYS.length)] : '';
 
 export function CircuitEditBot() {
     const [open, setOpen] = useState(false);
@@ -48,7 +44,7 @@ export function CircuitEditBot() {
         setLoading(true);
 
         try {
-            const model = new GoogleGenerativeAI(nextKey()).getGenerativeModel({ model: 'gemini-2.5-flash' });
+            const model = new GoogleGenerativeAI(nextKey()).getGenerativeModel({ model: 'gemini-3-flash-preview' });
 
             const systemCtx = `
 You are Circuitex, an expert breadboard circuit editor AI.
